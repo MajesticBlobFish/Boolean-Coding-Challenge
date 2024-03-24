@@ -1,0 +1,80 @@
+/* bg image */
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+    color: lightgray;
+  }
+/* overlay */
+.overlay {
+    width: 1200px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 1%;
+}
+/* header */
+header {
+    text-align: center;
+    color: #00DD00;
+}
+
+/* immagine */
+header > img {
+    width: 200px;
+}
+/* nav overlay */
+nav {
+    background-color: #00DD00;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    box-sizing: content-box;
+}
+/* buttons */
+nav > div {
+text-align: center;
+}
+/* scooter info */
+main {
+    margin: auto;
+    width: 80%;
+    padding-top: 10px;
+    box-sizing: content-box;
+}
+/* nome monopattini */
+h2 {
+    display: inline-block;
+    color: white;
+    margin: 10px 0;
+}
+/* stato carica 1 */
+.carica.uno {
+    background-color: #F5B453;
+    width: 35%;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+/* stato carica 2 */
+
+.carica.due {
+    background-color: #1EC31E;
+    width: 65%;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+/* stato carica 3 */
+
+.carica.tre {
+    margin-top: 5px;
+    background-color: #BE4141;
+    width: 15%;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
